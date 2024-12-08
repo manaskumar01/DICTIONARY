@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/style/style.css">
+    <link rel="icon" href="https://th.bing.com/th/id/R.7d1eeb9a0b22fbbb9c99dbfbdad26915?rik=jIEtId79tVIW1w&riu=http%3a%2f%2ffiles.softicons.com%2fdownload%2fsocial-media-icons%2ffree-social-media-icons-by-aha-soft%2fpng%2f512x512%2fUser.png&ehk=lIKGnne%2biYXsJOk4mL2x9UH6WuAyrpFtmUPfXaqHm2s%3d&risl=&pid=ImgRaw&r=0">
+    <title>User Registration</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Sign up</h2>
+        <form action="/register" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <p>You have an account <a href="/login"><b>Log in here</b></a></p>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
